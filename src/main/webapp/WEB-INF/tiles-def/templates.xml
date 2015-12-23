@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC 
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name=".mainTemplate" template="/WEB-INF/templates/main.jsp">
+		<put-attribute name="title" value="Spring MVC and Gradle Example"/>
+		<put-attribute name="header" value="/WEB-INF/templates/header.jsp"/>
+		<put-attribute name="menu" value="/WEB-INF/templates/menu.jsp"/>
+		<put-attribute name="body" value="/WEB-INF/templates/body.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/templates/footer.jsp"/>
+	</definition>
+	<definition name="index" extends=".mainTemplate">
+		<put-attribute name="body" value="/WEB-INF/components/index.jsp"/>
+	</definition>
+	<definition name="about" extends=".mainTemplate">
+		<put-attribute name="body" value="/WEB-INF/components/about.jsp"/>
+	</definition>
+	
+	<definition name="home" extends=".mainTemplate"> 
+		<put-attribute name="body" value="/WEB-INF/views/home.jsp"/>
+	</definition>
+</tiles-definitions>	
