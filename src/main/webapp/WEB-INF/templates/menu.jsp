@@ -1,11 +1,4 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<link href="<c:url value="/resources/bootstrap-3.3.5-dist/css/bootstrap.css" />" rel="stylesheet"  type="text/css" />
-<link href="<c:url value="/resources/bootstrap-3.3.5-dist/css/bootstrap.min.css" />" rel="stylesheet"  type="text/css" />
-<script type="text/javascript" src="<c:url value="/resources/js/jquery-1.11.3.min.js" />"></script>
-<script type="text/javascript" src="<c:url value="/resources/bootstrap-3.3.5-dist/js/bootstrap.js" />"></script>
-<script type="text/javascript" src="<c:url value="/resources/bootstrap-3.3.5-dist/js/bootstrap.min.js" />"></script>
-
-
 <div id="memu">
 	<nav class="navbar navbar-default" role="navigation">
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -16,14 +9,14 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/">VIPVIP</a>
+			<a class="navbar-brand" href="<c:url value="/" />">Doublekill</a>
 		</div>
 	
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="<c:url value="/" />">Home</a></li>
-				<li><a href="../about">About</a></li>
+				<li><a href="<c:url value="/about" />">About</a></li>
 			</ul>
 			<form class="navbar-form navbar-left" role="search">
 				<div class="form-group">
@@ -34,7 +27,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="../">Programming</a></li>
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">Action</a></li>
 						<li><a href="#">Another action</a></li>

@@ -21,4 +21,15 @@
 	<definition name="home" extends=".mainTemplate"> 
 		<put-attribute name="body" value="/WEB-INF/views/home.jsp"/>
 	</definition>
+	<definition name="international" extends=".mainTemplate">
+		<put-attribute name="body" value="/WEB-INF/components/internationaliztion.jsp"/>
+	</definition>
+	
+	<definition name="viewresult" extends=".mainTemplate">
+		<put-attribute name="body" value="/WEB-INF/components/viewResult.jsp"/>
+	</definition>
+	
+	<definition name="form" extends=".mainTemplate">
+		<put-attribute name="body" value="/WEB-INF/components/form.jsp"></put-attribute>
+	</definition>
 </tiles-definitions>	
