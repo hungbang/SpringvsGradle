@@ -26,6 +26,7 @@
 	</dir>
 	<script type="text/javascript" src="<c:url value="/resources/js/jquery-1.11.3.min.js" />"></script>
 	<script type="text/javascript" src="<c:url value="/resources/bootstrap-3.3.5-dist/js/bootstrap.min.js" />"></script>
+	<script type="text/javascript" src="<c:url value="/resources/angularjs/angular.min.js" />"></script>
 	
 </body>
 </html>
