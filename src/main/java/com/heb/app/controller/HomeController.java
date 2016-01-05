@@ -65,6 +65,10 @@ public class HomeController {
 		logger.info("------form-------------");
 		return "form";
 	}
+	@RequestMapping(value="/angular", method=RequestMethod.GET)
+	public String angular(){
+		return "angular";
+	}
 	
 	
 }

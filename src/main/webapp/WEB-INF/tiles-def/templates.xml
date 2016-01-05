@@ -32,4 +32,9 @@
 	<definition name="form" extends=".mainTemplate">
 		<put-attribute name="body" value="/WEB-INF/components/form.jsp"></put-attribute>
 	</definition>
+	
+	<definition name="angular" extends=".mainTemplate">
+		<put-attribute name="body" value="/WEB-INF/components/angularing.jsp"/>
+	</definition>
+	
 </tiles-definitions>	

@@ -29,6 +29,8 @@ exclude(module: 'commons-logging')
     compile group: 'org.slf4j', name: 'slf4j-api', version:'1.7.13'
     compile group: 'javax.inject', name: 'javax.inject', version:'1'
     compile group: 'javax.servlet', name: 'jstl', version:'1.2'
+    compile group: 'com.fasterxml.jackson.core', name:'jackson-core', version:'2.6.4'
+    compile group: 'com.fasterxml.jackson.core', name:'jackson-databind', version:'2.6.4'
     compile group: 'org.apache.tiles', name: 'tiles-core', version: '3.0.5'
     compile group: 'org.apache.tiles', name: 'tiles-jsp', version: '3.0.5'
     compile group: 'org.apache.tiles', name: 'tiles-api',version: '3.0.5'

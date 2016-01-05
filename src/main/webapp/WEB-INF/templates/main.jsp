@@ -7,6 +7,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link href="<c:url value="/resources/bootstrap-3.3.5-dist/css/bootstrap.min.css" />" rel="stylesheet"  type="text/css" />
+<link href="<c:url value="/resources/datatables/jquery.dataTables.min.css" />" rel="stylesheet"  type="text/css" />
+
 <title> <tiles:getAsString name="title"/></title>
 </head>
 <body class="container">
@@ -26,6 +28,9 @@
 	</dir>
 	<script type="text/javascript" src="<c:url value="/resources/js/jquery-1.11.3.min.js" />"></script>
 	<script type="text/javascript" src="<c:url value="/resources/bootstrap-3.3.5-dist/js/bootstrap.min.js" />"></script>
+	<script type="text/javascript" src="<c:url value="/resources/js/angular.min.js" />"></script>
+	<script type="text/javascript" src="<c:url value="/resources/datatables/jquery.dataTables.min.js" />"></script>
+	<script type="text/javascript" src="<c:url value="/resources/js/hello.js" />"></script>
 	
 </body>
 </html>
